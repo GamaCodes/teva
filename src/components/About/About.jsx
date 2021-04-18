@@ -39,18 +39,19 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                'Somos una empresa 100% mexicana especialista en la producción de todo tipo de bayas, realizando desde el analisis de los suelos y condiciones agroclimáticas, la produccíon y su distribución. Contamos con provedores regionales para los insumos asi como relaciones con clientes potenciales nacional e internacionalmente. '}
+                'Somos una empresa 100% mexicana especialista en la producción de todo tipo de bayas, realizando desde el análisis de los suelos y condiciones agroclimáticas, la producción y su distribución.'}
                 </p>
                 <br/>
                 <h1>Visión</h1>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Ser líder en la producción de bayas, asi como en su comercialización y desarrollo de infraestructura de este sector '}
+                    'Ser líder en la producción agropecuaria, así como en su comercialización y desarrollo de infraestructura de este sector.'}
                 </p>
                 <br/>
                 <h1>Misión</h1>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Empresa agrícola que tiene como misión la producción de bayas de la mejor calidad, innovando en tecnologías y buenas prácticas agrícolas, buscando siempre la sostenibilidad y rentabiliddad en sus operaciones y que contribuya al desarrollo de la empresa, empleados, proveedores y accinistas.  '}
+                  {paragraphThree || 
+                    'Ser innovadores en procesos y buenas prácticas agrícolas, buscando la sustentabilidad y rentabilidad en nuestras operaciones.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">

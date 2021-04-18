@@ -22,8 +22,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `TEVA`,
-        short_name: `TEVA`,
+        name: `TEVA | Inicio`,
+        short_name: `TEVA COMERCIALIZADORA Y SERVICIOS PARA EL CAMPO SPR DE RL`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,
