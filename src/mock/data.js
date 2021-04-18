@@ -2,56 +2,54 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'TEVA',
+  lang: 'es',
+  description: 'Teva comercializadora y servicios para el campo SPR de RL',
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Somos',
+  name: 'TEVA',
+  subtitle: 'Comercializadora y servicios para el Campo',
   cta: '',
+  img: 'teva.png',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'bayas.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '',
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'valores.jpg',
+    title: 'Nuestros Valores',
+    info: 'Reconocemos la tradición y valor de las distintas marcas, la lealtad de nuestros clientes y la identificación de nuestros concesionarios. Manejaremos el negocio con el fin de subministrar un retorno superior para nuestros acionistas, alcanzando un crecimiento rentable. En este mundo de la agricultura siempre cambiante, nuestros valores centrales son constantes:',
+    info2: 'Responsabilidad, Integridad, Respeto, Espíritu de equipo, Transparencia.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'hidro.jpg',
+    title: 'Responsabilidad Ambiental',
+    info: 'Con ayuda de la hidroponía haremos frente al problema de la degradación y contaminación de la tierra, a la vez que tendremos mayor control sobre la incidencia de plagas en las plantas lo que protege ecosistemas que suelen ser dañados con cultivos tradicionales.',
+    info2: 'Al no necesitar quimicos los productos son mas frescos y saludables. Adicional se aprovecharia al máximo el agua, ya que al cultivar en tierra, gran parte del agua se pierde por escurrimiento en el suelo.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'calidad.jpg',
+    title: 'Política de Calidad',
+    info: 'Nuestra política de calidad se manifiesta mediante nuestro firme compromiso con los CLIENTES de satisfacer plenamente sus requerimientos, espectativas y siempre cuidando su salud. Para esto garantizamos impulsar una cultura de calidad basada en los principios de honestidad, solidaridad, seguridad y una constante mejora.',
+    info2: 'Tenemos el compromiso de ser un referente para la industria frutícola nacional e internacional, que busca ser reconocida por un alto estándar de calidad en nuestros procesos, seguridad laboral y respeto por el medio ambiente.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
@@ -72,23 +70,8 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
       url: '',
     },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: '',
-    },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };

@@ -25,7 +25,6 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="About Me" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
@@ -35,18 +34,23 @@ const About = () => {
             </Fade>
           </Col>
           <Col md={6} sm={12}>
+            <Title title="¿Quienes somos?" />
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                'Somos una empresa 100% mexicana especialista en la producción de todo tipo de bayas, realizando desde el analisis de los suelos y condiciones agroclimáticas, la produccíon y su distribución. Contamos con provedores regionales para los insumos asi como relaciones con clientes potenciales nacional e internacionalmente. '}
                 </p>
+                <br/>
+                <h1>Visión</h1>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Ser líder en la producción de bayas, asi como en su comercialización y desarrollo de infraestructura de este sector '}
                 </p>
+                <br/>
+                <h1>Misión</h1>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || 'Empresa agrícola que tiene como misión la producción de bayas de la mejor calidad, innovando en tecnologías y buenas prácticas agrícolas, buscando siempre la sostenibilidad y rentabiliddad en sus operaciones y que contribuya al desarrollo de la empresa, empleados, proveedores y accinistas.  '}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
@@ -56,7 +60,7 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume}
                     >
-                      Resume
+                      Más informes
                     </a>
                   </span>
                 )}
